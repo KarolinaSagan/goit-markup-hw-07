@@ -1,0 +1,65 @@
+.footer-page {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-page__logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  text-decoration: none;
+  color: $black;
+}
+.footer-page__first-span {
+  color: $componentcolorblue;
+}
+.footer-page__second-span {
+  color: $white;
+}
+.footer-page__p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-page__div {
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.footer-page__ul {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.footer-page__icon {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: $white;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  &:active,
+  &:hover,
+  &:focus {
+    fill: $white;
+    background: $componentcolorblue;
+    border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.footer-page__adress {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

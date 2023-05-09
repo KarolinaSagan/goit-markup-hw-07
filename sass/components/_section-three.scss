@@ -1,0 +1,40 @@
+.section-three {
+  padding-bottom: 94px;
+}
+.section-three__h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 0px;
+}
+.section-three__img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.section-three__figure {
+  position: relative;
+  display: inline-flex;
+}
+
+.section-three__figcaption {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  left: 0;
+  right: 0;
+  background-color: $indexfigcaptioncolor;
+  color: $white;
+  bottom: 0;
+  padding: 27px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
