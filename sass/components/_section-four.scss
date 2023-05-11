@@ -2,69 +2,70 @@
   background: $componentcolorgrey3;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.section-four__div {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
-  gap: 30px;
-}
-.section-four__h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.section-four__figure {
-  background-color: $white;
-  width: 270px;
-  height: 428px;
-  flex-direction: column;
-  box-shadow: 0px 1px 3px $boxshadowcolor1, 0px 1px 1px $boxshadowcolor2,
-    0px 2px 1px $boxshadowcolor3;
-  border-radius: 0px 0px 4px 4px;
-}
-.section-four__figcaption {
-  text-align: center;
-  padding-top: 30px;
-}
-.section-four__H4 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-}
-.section-four__p {
-  color: $componentcolorgrey;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  margin-top: 10px;
-}
-.section-four__ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  padding-left: 32px;
-  padding-top: 16px;
-}
-.section-four__icon {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  fill: $componentcolorgrey2;
-  display: inline-block;
-  border-radius: 50%;
 
-  &:focus,
-  &:hover {
-    fill: white;
-    background: #2196f3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 30px;
+  }
+  &__h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  &__figure {
+    background-color: $white;
+    width: 270px;
+    height: 428px;
+    flex-direction: column;
+    box-shadow: 0px 1px 3px $boxshadowcolor1, 0px 1px 1px $boxshadowcolor2,
+      0px 2px 1px $boxshadowcolor3;
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__figcaption {
+    text-align: center;
+    padding-top: 30px;
+  }
+  &__H4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+  &__p {
+    color: $componentcolorgrey;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+  }
+  &__ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding-left: 32px;
+    padding-top: 16px;
+  }
+  &__icon {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    fill: $componentcolorgrey2;
+    display: inline-block;
+    border-radius: 50%;
+
+    &:focus,
+    &:hover {
+      fill: $white;
+      background: $componentcolorblue96f3;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 }

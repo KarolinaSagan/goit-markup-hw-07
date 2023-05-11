@@ -1,83 +1,84 @@
-.form__p {
-  font-size: 12px;
-  line-height: 14px;
-  margin-top: 10px;
-}
 .form {
   margin-top: 2px;
-}
-.form__label {
-  margin-top: 4px;
-  display: flex;
-  width: 100%;
-  height: 40px;
-  border: 1px solid $borderlabelcolor;
-  background: $white;
-  letter-spacing: 0.01em;
-  color: $componentcolorgrey;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-left: 15px;
 
-  &:focus-within,
-  &:active,
-  &:hover {
-    border: 1px solid $componentcolorblue;
-    border-radius: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    fill: $componentcolorblue;
-    cursor: pointer;
+  &__p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
   }
-}
-.form__input {
-  padding-left: 15px;
-  width: 100%;
-  outline: none;
-  border: none;
-}
-.form__label--textarea {
-  height: 120px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-.form__checkbox {
-  display: flex;
-  gap: 7px;
-  margin-top: 20px;
-  margin-left: 14px;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: $componentcolorgrey;
-  align-items: center;
-}
-.form__a {
-  color: $componentcolorblue;
-}
-.form__button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: $white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 76px;
-  padding-right: 76px;
-  background: $componentcolorblue;
-  border: none;
-  border-radius: 4px;
-  justify-content: center;
-  margin-left: 124px;
-  margin-top: 30px;
+  &__label {
+    margin-top: 4px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border: 1px solid $borderlabelcolor;
+    background: $white;
+    letter-spacing: 0.01em;
+    color: $componentcolorgrey;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 15px;
 
-  &:hover,
-  &:active,
-  &:focus {
-    cursor: pointer;
+    &:focus-within,
+    &:active,
+    &:hover {
+      border: 1px solid $componentcolorblue;
+      border-radius: 4px;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      fill: $componentcolorblue;
+      cursor: pointer;
+    }
+  }
+  &__input {
+    padding-left: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+  &__label--textarea {
+    height: 120px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  &__checkbox {
+    display: flex;
+    gap: 7px;
+    margin-top: 20px;
+    margin-left: 14px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $componentcolorgrey;
+    align-items: center;
+  }
+  &__a {
+    color: $componentcolorblue;
+  }
+  &__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 76px;
+    padding-right: 76px;
+    background: $componentcolorblue;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    margin-left: 124px;
+    margin-top: 30px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      cursor: pointer;
+    }
   }
 }
