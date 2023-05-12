@@ -29,6 +29,12 @@
       fill: $componentcolorblue;
       cursor: pointer;
     }
+
+    &--textarea {
+      height: 120px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
   }
   &__input {
     padding-left: 15px;
@@ -36,11 +42,7 @@
     outline: none;
     border: none;
   }
-  &__label--textarea {
-    height: 120px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+
   &__checkbox {
     display: flex;
     gap: 7px;

@@ -24,6 +24,14 @@
     list-style: none;
     display: flex;
     padding-inline-start: 0px;
+
+    &--contact {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-left: 350px;
+      padding-left: 0px;
+    }
   }
 
   &__li {
@@ -31,14 +39,6 @@
     &:not(:first-child) {
       margin-left: 46px;
     }
-  }
-
-  &__ul-contact {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 350px;
-    padding-left: 0px;
   }
 
   &__li-contact {
